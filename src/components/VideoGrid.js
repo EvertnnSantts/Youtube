@@ -11,9 +11,9 @@ export default function VideoGrid() {
       thumb: 'https://img.youtube.com/vi/abcd1/mqdefault.jpg',
     },
     {
-      title: 'Ela quebrou a coluna',
+      title: 'As 2 noites',
       channel: 'MC Caldas',
-      views: '2 mi de visualizações • há 1 dia',
+      views: '200 mi de visualizações • há 1 dia',
       thumb: 'https://img.youtube.com/vi/abcd2/mqdefault.jpg',
     },
     {
