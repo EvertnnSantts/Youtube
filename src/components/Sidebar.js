@@ -1,10 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Sidebar.css';
 import { Home, Video, Clock, ThumbsUp, User, PlaySquare } from 'lucide-react';
 
-export default function Sidebar() {
-  const [isOpen, setIsOpen] = useState(true);
-
+export default function Sidebar({ isOpen, setIsOpen }) {
   return (
     <aside className={`sidebar ${isOpen ? 'open' : 'closed'}`}>
       <button className="toggle-btn" onClick={() => setIsOpen(!isOpen)}>

@@ -2,3 +2,18 @@ body{
   margin: auto;
   width: 100vw;
 }
+
+.main-content {
+  padding-top: 56px; 
+  min-height: 100vh;
+  background: #0f0f0f;
+  transition: margin-left 0.3s ease;
+}
+
+.sidebar-open {
+  margin-left: 240px;
+}
+
+.sidebar-closed {
+  margin-left: 72px;
+}

@@ -1,0 +1,39 @@
+.video-card {
+  background: #121212;
+  border-radius: 8px;
+  overflow: hidden;
+  color: white;
+  transition: transform 0.2s ease;
+}
+
+.video-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.video-card .live-badge {
+  background: red;
+  color: white;
+  padding: 4px 8px;
+  font-size: 12px;
+  position: absolute;
+  margin-top: -24px;
+  margin-left: 8px;
+  border-radius: 4px;
+}
+
+.video-info {
+  padding: 10px;
+}
+
+.video-info h4 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.video-info p,
+.video-info small {
+  color: #ccc;
+  margin: 2px 0;
+}

@@ -5,13 +5,13 @@ import Youtube from '../assets/YT.png';
 
 export default function Navbar() {
   return (
+
     <nav className="navbar">
       <div className="navbar-left">
         <div className="logo">
           <img src={Youtube} alt="YouTube" id= "LogoYoutube"/>
         </div>
       </div>
-
       <div className="navbar-center">
         <div className="search-bar">
           <input type="text" placeholder="Pesquisar" />
@@ -20,7 +20,6 @@ export default function Navbar() {
         </div>
         <button className="mic-icon">🎤</button>
       </div>
-
       <div className="navbar-right">
         <button className="create-btn">＋ Criar</button>
         <div className="notifications">
